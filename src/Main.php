@@ -6,7 +6,7 @@ namespace BEDevs\BedrockEssentials;
 
 use pocketmine\plugin\PluginBase;
 
-class Main(PluginBase){
+class Main extends PluginBase {
   public function onEnable(): void{
     # Codes
     $this->getLogger()->info("Plugin Enabled");
