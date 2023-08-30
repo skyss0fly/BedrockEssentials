@@ -1,0 +1,6 @@
+name: BedrockEssentials
+version: 1.0.0-dev
+api: 5.0.0
+main: BEDevs\BedrockEssentials\Main
+src-namespace-prefix: BEDevs\BedrockEssentials
+author: BedrockDevelopers
