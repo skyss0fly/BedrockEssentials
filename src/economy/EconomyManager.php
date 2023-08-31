@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace BEDevs\BedrockEssentials\economy;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\utils\Config;
 
 class EconomyManager{
