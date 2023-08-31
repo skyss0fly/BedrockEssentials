@@ -28,7 +28,7 @@ class Main extends PluginBase {
         $this->saveDefaultConfig();
     }
     if(!is_dir($this->getDataFolder() . "languages")){
-        mkdir($this->->getDataFolder() . "languages");
+        mkdir($this->getDataFolder() . "languages");
     }
     if(!file_exists($this->getDataFolder() . "languages/english.properties")){
         $this->saveResource("languages/english.properties");
