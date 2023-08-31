@@ -10,11 +10,11 @@ use pocketmine\command\CommandSender;
 use pocketmine\utils\Config;
 use pocketmine\player\Player;
 
-class AFKCommand extends Command {
+class ICommand extends Command {
   private $plugin;
   public function __construct(Plugin $plugin){
-    $this->setPermission("bedrockessentials.afk.use");
-    parent::__construct("afk", "Toggle \"Away from keyboard\" mode", "/afk <boolean: True/False>");
+    $this->setPermission("bedrockessentials.item");
+    parent::__construct("item", "Gives yourself a item", "/item <item> [amount]");
     $this->plugin = $plugin;
   }
 
