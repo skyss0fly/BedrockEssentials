@@ -20,6 +20,6 @@ To integrate with BedrockEssentials, refer to [Our official wiki](https://Bedroc
 ## Players
 To use BedrockEssentials, simply type **/BedrockEssentials** or **/Essentials**.
 # Donating
-Your donations help us continue working in this plugin. You can support us through Github Sponsors, Paypal, or Patreon
+Your donations help us continue working in this plugin. You can support us through Paypal
 # Contribute
 Contribute to the development of BedrockEssentials by suggesting new features, reporting bugs, or submitting code improvements. Your contributions are valuable to us
