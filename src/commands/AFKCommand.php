@@ -11,6 +11,7 @@ use pocketmine\utils\Config;
 use pocketmine\player\Player;
 
 class AFKCommand extends Command {
+  private $plugin;
   public function __construct(Plugin $plugin){
     $this->setPermission("bedrockessentials.afk.use");
     parent::__construct("afk", "Toggle \"Away from keyboard\" mode", "/afk <boolean: True/False>");
