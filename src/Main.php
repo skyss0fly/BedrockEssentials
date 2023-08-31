@@ -8,7 +8,7 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
   public function onEnable(): void{
-    $this->CheckConfig()
+    $this->CheckConfig();
     # Codes
     $this->getLogger()->info("Plugin Enabled");
   }
