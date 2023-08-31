@@ -11,6 +11,10 @@ To install and set up BedrockEssentials:
 2. Upload the plugin to **plugins** folder in your server directory.
 3. Restart your server.
 4. Enjoy the functionlity of the plugin.
+
+Please note the following requirements to run BedrockEssentials:
+- **BedrockEssentials requires PocketMine-MP.** We aim to make the plugin compatible with various PHP softwares, as long as they are up to date and functioning properly.
+- **BedrockEssentials currently supports PM5 or higher.**
 ## Developers
 To integrate with BedrockEssentials, refer to [Our official wiki](https://BedrockEssentials.BEDevs.us.to/goto/bedrockessentials/wiki)
 ## Players
