@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace BEDevs\BedrockEssentials\economy;
 
+use pocketmine\utils\Config;
+
 class EconomyManager{
   /*
    * Method to insert new player column
@@ -28,6 +30,13 @@ class EconomyManager{
    * Method to delete player column
    */
   public function delete(){
+    # Codes
+  }
+  
+  /*
+   * Method to check if player column exists
+   */
+  public function exists(){
     # Codes
   }
 }
