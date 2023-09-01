@@ -13,7 +13,7 @@ class HealCommand extends Command {
   private $plugin;
   public function __construct(Plugin $plugin){
     $this->setPermission("bedrockessentials.heal");
-    parent::__construct("heal", "heals yourself", "/heal");
+    parent::__construct("heal", "Restore player's health", "/heal");
     $this->plugin = $plugin;
   }
 
