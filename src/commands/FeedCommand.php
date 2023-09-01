@@ -16,9 +16,7 @@ class FoodCommand extends Command {
 
   public function execute(CommandSender $sender, string $commandLabel, array $args) : bool {
     if($sender instanceof Player){
-      /*
-       * $sender->setFood($sender->getMaxFood());
-       */
+      $sender->getHungerManager()->setFood($sender->getHungerManager()->getMaxFood());
       $sender->sendMessage("§6You have been fed");
     } else {
       $sender->sendMessage("This command can only be used by players.");
