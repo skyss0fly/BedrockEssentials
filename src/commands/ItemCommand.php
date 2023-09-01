@@ -14,11 +14,12 @@ class ICommand extends Command {
   private $plugin;
   public function __construct(Plugin $plugin){
     $this->setPermission("bedrockessentials.item");
-    parent::__construct("item", "Gives yourself a item", "/item <item> [amount]");
+    parent::__construct("item", "Give yourself a item", "/item <item> [amount]");
     $this->plugin = $plugin;
   }
 
   public function execute(CommandSender $sender, string $commandLabel, array $args) : bool {
+    $plugin->getLogger()->info("...");
     return True;
   }
 }
