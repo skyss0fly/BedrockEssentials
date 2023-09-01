@@ -16,7 +16,7 @@ class ICommand extends Command {
   }
 
   public function execute(CommandSender $sender, string $commandLabel, array $args) : bool {
-    $this->lugin->getLogger()->info("...");
+    # Codes
     return True;
   }
 }
