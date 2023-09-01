@@ -17,14 +17,16 @@ class ICommand extends Command {
 
   public function execute(CommandSender $sender, string $commandLabel, array $args) : bool {
     # Codes
-
-    $item = $args[0];
-    $amount = $args[1];
-      if (count($args) < 2 ){
-
-      $sender->sendMessage("Usage: /item <item> [amount]")
-        return false;
-    }
+if (count($args) < 2) {
+                $sender->sendMessage("Usage: /item <item> [amount]");
+                return false;
+            }
+            
+            $item = $args[0];
+            $amount = $args[1];
+            
+    
+    
     else {
       $item = $sender->getInventory()->addItem(VanillaItems::,$item)->setCount($amount);
       $sender->sendMessage("Gave you " . $item);
