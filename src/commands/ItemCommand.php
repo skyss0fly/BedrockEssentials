@@ -19,7 +19,7 @@ class ICommand extends Command {
   }
 
   public function execute(CommandSender $sender, string $commandLabel, array $args) : bool {
-    $plugin->getLogger()->info("...");
+    $this->lugin->getLogger()->info("...");
     return True;
   }
 }
